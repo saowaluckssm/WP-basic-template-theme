@@ -1,0 +1,304 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900");
+
+body {
+  font: 16px/1.6 "Oswald", sans-serif;
+}
+body p {
+  font: 16px/1.6 "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 15px 0 15px;
+}
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* Top Bar Section */
+.top-bar {
+  background: #b9121b;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* Header - Logo */
+.align {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Header - Main Menu */
+.menu-area {
+  background: #f3f3f3;
+  padding: 15px 0;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+}
+.main-menu ul li {
+  display: inline;
+  margin: 0 30px 0 0;
+}
+.main-menu ul li:last-child {
+  margin: 0;
+}
+.main-menu ul li a {
+  text-transform: uppercase;
+  color: #4c1b1b;
+  text-decoration: none;
+}
+.main-menu ul li.current-menu-item a {
+  color: #e58888;
+}
+
+.menu_title a {
+  color: #fff;
+}
+
+/* Slider */
+.slide {
+  padding: 0;
+  margin: 0;
+}
+
+.slide .container {
+  padding: 0;
+}
+.motoslider_wrapper {
+  padding: 0;
+}
+
+/* Services */
+.services {
+  background: #4c1b1b;
+  padding: 25px 0;
+  color: #fefefe;
+}
+.services h1 {
+  text-align: center;
+  color: #fcfae1;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.services .widget-wrapper {
+  text-align: center;
+}
+
+.services .widget-wrapper h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #f6e497;
+  font-weight: 200;
+}
+.services .widget-wrapper:first-child {
+  padding: 15px 0;
+}
+.services .widget-wrapper > img {
+  border: 5px solid #fff;
+}
+
+/* Middle Area */
+.middle-area {
+  padding: 25px 0;
+}
+.middle-area h1 {
+  color: #4c1b1b;
+  text-transform: uppercase;
+}
+
+/* Middle Area - Sidebar */
+.sidebar {
+  background: #f6e497;
+  padding: 35px;
+  margin: 0 0 30px;
+}
+
+.home .sidebar {
+  background: #201c0c;
+  padding: 35px;
+  margin: 0 0 30px;
+}
+
+.home .sidebar h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 38px;
+  margin: 0 0 25px;
+}
+.home .sidebar p {
+  color: #c9c9c9;
+}
+
+.home .sidebar p label {
+  width: 100%;
+}
+
+/* Middle Area - Sidebar - Contact Form */
+.home .wpcf7 input[type="text"],
+.home .wpcf7 input[type="email"],
+.home .wpcf7 textarea {
+  width: 100%;
+  background: #fcfae1;
+  border: 0;
+  padding: 10px;
+  color: #989898;
+}
+
+.home .wpcf7 input[type="submit"] {
+  background: #b9121b;
+  border: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+}
+.home .wpcf7-validation-errors {
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  padding: 15px 0;
+  color: #fcfae1;
+}
+
+/* Footer - Footer Menu */
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+.footer-menu ul li {
+  display: inline;
+  margin: 0 15px 0 0;
+}
+.footer-menu ul li:last-child {
+  margin: 0;
+}
+.footer-menu ul li a {
+  color: #fcfae1;
+  text-decoration: none;
+}
+.footer-menu ul li.current-menu-item a {
+  color: #e58888;
+}
+
+/* Blog */
+.blog .wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+.format-image h2 {
+  color: #fff;
+  background: #717171;
+  padding: 15px;
+}
+.format-video h2 {
+  color: #fff;
+  background: #211e1e;
+  padding: 15px;
+}
+.format-standard h2 {
+  color: #444;
+  background: #d2d2d2;
+  padding: 15px;
+}
+.blog article {
+  display: inline-block;
+  margin: 0 0 30px;
+  width: 100%;
+}
+.blog article h2 {
+  margin-bottom: 15px;
+}
+.blog article p > img {
+  width: 100%;
+  height: auto;
+}
+.blog .meta-info p {
+  line-height: 1em;
+  font-weight: bold;
+}
+.blog .meta-info p > a {
+  color: #9d9d9d;
+  font-weight: normal;
+}
+
+/* Middle Area - Featured News */
+.home .news .format-image h2,
+.home .news .format-video h2,
+.home .news .format-standard h2 {
+  color: #000;
+  background: transparent;
+  display: inline-block;
+  padding: 10px 0 5px;
+  font-weight: bold;
+}
+.home .news .featured h2 {
+  font-size: 35px;
+}
+
+.home .news .featured img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.home .news .secondary h2 {
+  font-size: 20px;
+}
+
+.home .news .secondary img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.home .news .meta-info p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.home .news span,
+.news span a {
+  color: #9c9c9c;
+  font-weight: normal;
+  margin: 0 2px 0 0;
+}
+
+/* searchform */
+/* .elementor-screen-only,
+.screen-reader-text,
+.screen-reader-text span,
+.ui-helper-hidden-accessible {
+  position: absolute;
+  top: -10000em;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: react(0, 0, 0, 0);
+  border: 0;
+} */
